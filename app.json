@@ -33,7 +33,7 @@
       "package": "com.damien0301.pernesfontv2",
 	  "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyCGFAOywMUMnc327Or-yv-sJXcWfWecWXI"
+          "apiKey": "PUT YOUR API_KEY HERE"
         }
       }
     },
