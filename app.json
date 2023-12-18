@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "pernesfont-v2",
+    "slug": "pernesfont-v2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+	"plugins": [
+        [
+          "expo-location",
+          {
+            "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+          }
+        ]
+      ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.damien0301.pernesfontv2",
+	  "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCGFAOywMUMnc327Or-yv-sJXcWfWecWXI"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "067ac7b5-8771-4369-8568-499e98145bd6"
+      }
+    }
+  }
+}
